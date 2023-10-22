@@ -4,6 +4,7 @@ clean: ## Clean all directories
 	cd level2/level2.2 && make clean
 	cd level2/level2.3 && make clean
 	cd level3 && make clean
+	cd pitfalls && make clean
 
 
 .PHONY: help
